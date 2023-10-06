@@ -9,7 +9,14 @@ const Navbar = () => {
         <nav className= "navbar">
             <img src= {logo} alt= "logo" className= "logo"/>
             <div className= "desktopMenu">
-                <Link className= "desktopMenuListItem" >Home</Link>
+                <Link
+                    activeClass= 'active'
+                    to= 'intro'
+                    spy={true} s
+                    mooth={true}
+                    offset={-100}
+                    duration={500}
+                    className= "desktopMenuListItem" >Home</Link>
                 <Link className= "desktopMenuListItem" >About</Link>
                 <Link className= "desktopMenuListItem" >Projects</Link>
                 <Link className= "desktopMenuListItem" >Clients</Link>
