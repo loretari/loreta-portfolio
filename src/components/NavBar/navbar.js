@@ -22,6 +22,14 @@ const Navbar = () => {
                     className= "desktopMenuListItem" >Home</Link>
                 <Link
                     activeClass= 'active'
+                    to= 'techstack'
+                    spy={true} s
+                    mooth={true}
+                    offset={-100}
+                    duration={500}
+                    className= "desktopMenuListItem" >Tech Stack</Link>
+                <Link
+                    activeClass= 'active'
                     to= 'skills'
                     spy={true} s
                     mooth={true}
@@ -36,14 +44,7 @@ const Navbar = () => {
                     offset={-100}
                     duration={500}
                     className= "desktopMenuListItem" >Projects</Link>
-                {/*<Link*/}
-                {/*    activeClass= 'active'*/}
-                {/*    to= 'clients'*/}
-                {/*    spy={true} s*/}
-                {/*    mooth={true}*/}
-                {/*    offset={-100}*/}
-                {/*    duration={500}*/}
-                {/*    className= "desktopMenuListItem" >Clients</Link>*/}
+
             </div>
             <button className= "desktopMenuBtn" onClick={() => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
@@ -63,7 +64,15 @@ const Navbar = () => {
                     duration={500}
                     className= "listItem"
                     onClick = {() => setShowMenu(false)}>Home</Link>
-
+                <Link
+                    activeClass= 'active'
+                    to= 'techstack'
+                    spy={true} s
+                    mooth={true}
+                    offset={-100}
+                    duration={500}
+                    className= "listItem"
+                    onClick = {() => setShowMenu(false)}>Tech Stack</Link>
                 <Link
                     activeClass= 'active'
                     to= 'skills'

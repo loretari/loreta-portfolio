@@ -45,6 +45,11 @@
     padding: 0 1rem;
     border-radius: 2rem;
 }
+
+.desktopMenuBtn:hover {
+    cursor: pointer;
+    background: rgb(59,214,180);
+}
 .active {
     color: rgb(59,214,180) ;
     padding-bottom: 0.5rem;
@@ -78,7 +83,7 @@
     background: #212940;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 680px) {
     .mobMenu {
         display: flex;
 
