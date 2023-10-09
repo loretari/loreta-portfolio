@@ -4,7 +4,7 @@ import Portfolio1 from '../../assets/portfolio1.png'
 import Portfolio2 from '../../assets/portfolio2.png'
 import Portfolio3 from '../../assets/portfolio3.png'
 import Portfolio4 from '../../assets/portfolio4.png'
-// import Portfolio5 from '../../assets/portfolio5.jpg'
+import Portfolio6 from '../../assets/portfolio6.png'
 
 // import Portfolio5 from '../../assets/portfolio5.png'
 // import Portfolio6 from '../../assets/ai-generated-8174912_1920.jpg'
@@ -20,8 +20,8 @@ const Works = () => {
                 <img src= {Portfolio2} alt= "" className= "worksImg"/>
                 <img src=  {Portfolio3} alt= "" className= "worksImg"/>
                 <img src=  {Portfolio4} alt= "" className= "worksImg"/>
-                {/*<img src=  {Portfolio5} alt= "" className= "worksImg"/>*/}
-                {/*<img src=  {Portfolio6} alt= "" className= "worksImg"/>*/}
+                <img src=  {Portfolio6} alt= "" className= "worksImg"/>
+                <img src=  {Portfolio4} alt= "" className= "worksImg"/>
             </div>
             <button className= "workBtn">See More</button>
         </section>
