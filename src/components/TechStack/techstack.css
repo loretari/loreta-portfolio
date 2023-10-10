@@ -43,7 +43,9 @@
 
 }
 
-
+.stacks img, svg {
+    margin-right: 1rem;
+}
 
 @media screen and (max-width: 870px) {
 
