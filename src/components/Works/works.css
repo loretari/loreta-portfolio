@@ -19,6 +19,7 @@
     font-weight: 300;
     font-size: 1rem;
     max-width: 45rem;
+    margin-bottom: 2rem;
 }
 .worksImgs {
     display: flex;
@@ -26,11 +27,11 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100vw;
-    max-width: 65rem;
+    max-width: 80rem;
 
 }
 .worksImg {
- object-fit: cover;
+    object-fit: cover;
     height: 20rem;
     margin: 0.5rem;
 }
@@ -42,6 +43,11 @@
     background: white;
     font-size: 1rem;
 }
+.workBtn:hover {
+    background: rgb(59,214,180);
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 585px){
    .worksImg {

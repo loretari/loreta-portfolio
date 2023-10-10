@@ -10,6 +10,13 @@
     justify-content: center;
 }
 
+.contactPageTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
 .contactDesc {
     padding: 1rem;
     font-size: medium;
@@ -38,18 +45,47 @@
 .submitBtn {
     background: white;
     border: none;
-    border-radius: 0.5rem;
     padding: 0.75rem 3.5rem;
-    margin: 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
 }
+
+.submitBtn:hover {
+    background: rgb(59,214,180);
+    cursor: pointer;
+}
+
+
 .links {
     display: flex;
     flex-wrap: wrap;
+
 }
+.links ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 .link {
    object-fit: cover;
     height: 2rem;
     width: 2rem;
     margin: 0 0.75rem;
 
+}
+.links li:hover {
+    background: rgb(59,214,180);
+    cursor: pointer;
+    height: fit-content;
+    min-width: 2rem;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 695px) {
+    #contactPage {
+        height: 20vh;
+    }
 }
