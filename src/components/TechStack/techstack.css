@@ -101,9 +101,10 @@
     }
 
 }
-@media screen and (max-width: 380px){
-
-
+@media screen and (max-width: 375px){
+    .stacks {
+        height: 100vh;
+    }
 }
 @media screen and (max-width: 290px) {
 }

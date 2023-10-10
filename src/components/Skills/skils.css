@@ -1,8 +1,9 @@
 #skills {
-    height: calc(100vh - 4rem);
+    /*height: calc(100vh - 2rem);*/
+    height: 100vh;
     overflow: hidden;
     width: 100vw;
-    max-width: 80rem;
+    max-width: 60rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,17 +64,13 @@
   }
 }
 
-@media screen and (max-width: 720px) {
-    .skillBarText>p {
-        font-size: 2vw;
-    }
-}
+
 
 @media screen and (max-width: 480px) {
     #skills {
         /*overflow: hidden;*/
         /*width: 150vw;*/
-        max-width: 100rem;
+        max-width: 80rem;
     }
     .skillBar {
         max-width: 60rem;
@@ -97,7 +94,35 @@
     .skillBarText>h2 {
         font-size: 5vw;
 
+    }
+}
 
+@media screen and (max-width: 480px) {
+    #skills {
+        height: 120vh;
+        max-width: 80rem;
+    }
+    .skillBar {
+        max-width: 60rem;
+        display: block;
+
+
+    }
+
+    .skillBarText>p {
+        font-size: 4vw;
+        padding-top: 10px;
+    }
+
+    .skillBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+        margin-left: 1rem;
+        /*padding-top: 3rem;*/
+
+    }
+    .skillBarText>h2 {
+        font-size: 5vw;
 
     }
 }
