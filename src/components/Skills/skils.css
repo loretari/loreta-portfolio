@@ -1,5 +1,4 @@
 #skills {
-    /*height: calc(100vh - 2rem);*/
     height: 100vh;
     overflow: hidden;
     width: 100vw;
@@ -39,15 +38,12 @@
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     background: #29324d;
-    /*background: #384466;*/
-    /*background: #212940*/
+
 }
 
 .skillBarImg {
     object-fit: cover;
     height: 3rem;
-    /*width: 9rem;*/
-    /*margin-right: 2rem;*/
     margin-right: 1rem;
 
 }
@@ -65,37 +61,6 @@
 }
 
 
-
-@media screen and (max-width: 480px) {
-    #skills {
-        /*overflow: hidden;*/
-        /*width: 150vw;*/
-        max-width: 80rem;
-    }
-    .skillBar {
-        max-width: 60rem;
-        display: block;
-
-
-    }
-
-    .skillBarText>p {
-        font-size: 4vw;
-        padding-top: 10px;
-    }
-
-    .skillBarImg {
-        height: 2.25rem;
-        width: 2.25rem;
-        margin-left: 1rem;
-        /*padding-top: 3rem;*/
-
-    }
-    .skillBarText>h2 {
-        font-size: 5vw;
-
-    }
-}
 
 @media screen and (max-width: 480px) {
     #skills {
@@ -118,7 +83,7 @@
         height: 2.25rem;
         width: 2.25rem;
         margin-left: 1rem;
-        /*padding-top: 3rem;*/
+
 
     }
     .skillBarText>h2 {
@@ -126,3 +91,4 @@
 
     }
 }
+

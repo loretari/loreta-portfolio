@@ -26,7 +26,6 @@ const Skills =() => {
                         <img src= { motivation } alt= "skill-icon" className= "skillBarImg"/>
 
                         <div className= "skillBarText">
-                            {/*<h2>Energetic, Flexible, Motivated </h2>*/}
                             <p>Energetic, flexible, highly motivated, positive team player.</p>
                         </div>
 
@@ -37,7 +36,6 @@ const Skills =() => {
                     <img src= { challenges_other } alt= "skill-icon" className= "skillBarImg"/>
 
                     <div className= "skillBarText">
-                        {/*<h2>HTML, CSS, Bootstrap</h2>*/}
                         <p>Eager to learn and open to new challenges</p>
                     </div>
                 </div>
@@ -47,8 +45,7 @@ const Skills =() => {
                     <img src= { solving } alt= "skill-icon" className= "skillBarImg"/>
 
                     <div className= "skillBarText">
-                        {/*<h2>HTML, CSS, Bootstrap</h2>*/}
-                        <p>       Possessing high emotional intelligence, the potential to motivate and support others, and problem solving skills.
+                        <p>Possessing high emotional intelligence, the potential to motivate and support others, and problem solving skills.
                         </p>
                     </div>
                 </div>
