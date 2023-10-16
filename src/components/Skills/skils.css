@@ -64,7 +64,7 @@
 
 @media screen and (max-width: 480px) {
     #skills {
-        height: 120vh;
+        height: 100vh;
         max-width: 80rem;
     }
     .skillBar {
@@ -74,7 +74,7 @@
 
     }
 
-    .projectTExt>p {
+    .skillBarText>p {
         font-size: 4vw;
         padding-top: 10px;
     }

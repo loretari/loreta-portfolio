@@ -1,6 +1,6 @@
 #works {
     margin: 0 auto;
-    height: 230vh;
+    height: 290vh;
     /*min-height: calc(100vh - 4rem);*/
     width: 100vw;
     max-width: 80rem;
@@ -98,6 +98,14 @@
     margin-top: 2rem;
 }
 
+.linkImg {
+    color: white;
+    object-fit: cover;
+    height: 2rem;
+    margin: 0.5rem;
+}
+
+
 .links, .links a {
     align-items: center;
     display: flex;
@@ -122,7 +130,7 @@
 @media screen and (max-width: 830px) {
     .projectText >p {
         font-size: 1rem;
-        margin-left: 1rem;
+        margin: 2rem;
         font-weight: 300;
 
     }
@@ -137,13 +145,13 @@
     }
 
     #works {
-        height: 230vh;
+        height: 290vh;
     }
 }
 
 @media screen and (max-width: 760px) {
     #works {
-        height: 360vh;
+        height: 480vh;
 
     }
     .project {
@@ -156,7 +164,7 @@
 
 @media screen and (max-width: 520px) {
     #works {
-        height: 300vh;
+        height: 380vh;
         max-width: 80rem;
     }
     .project {
@@ -179,12 +187,13 @@
 
 @media screen and (max-width: 480px) {
     #works {
-        height: 250vh;
+        height: 420vh;
         max-width: 80rem;
     }
     .worksImg {
         height: 20rem;
         margin-left: 1rem;
+        margin-bottom: 2rem;
     }
     .project {
         max-width: 30rem;
