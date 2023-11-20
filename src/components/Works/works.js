@@ -19,7 +19,7 @@ const Works = () => {
                 <span className= "worksDesc">Here, in this section you can see some of my projects. Some of them are rather small, some of them are bigger, some of them are responsive, some are not, but this section will keep growing as I do more projects, and learn more technologies.</span>
 
             <div className= "project">
-                <a href= "https://magical-granita-3a832f.netlify.app/"
+                <a href= "https://astounding-muffin-374f94.netlify.app/"
                    target= "_blank"
                    rel= "noreferrer">
                     <img src= {Portfolio15} alt= "website" className= "worksImg"/>
@@ -39,7 +39,7 @@ const Works = () => {
                     </div>
                     <div className= "links">
                         <a
-                            href= "https://github.com/loretari/redux-shopping-cart"
+                            href= "https://github.com/loretari/e-commerce_simple-app"
                             target= "_blank"
                             rel= "noreferrer">
                             Code
@@ -49,7 +49,7 @@ const Works = () => {
                             </svg>
                         </a>
                         <a
-                            href= "https://magical-granita-3a832f.netlify.app/"
+                            href= "https://astounding-muffin-374f94.netlify.app/"
                             target= "_blank"
                             rel= "noreferrer">
                             Live Demo
