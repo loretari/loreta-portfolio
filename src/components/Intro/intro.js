@@ -11,7 +11,7 @@ const Intro = () => {
                 <span className= "introText">I'm
                     <span className= "introName"> Loreta</span>
                     <br />
-                    Front-End React Developer</span>
+                    Software Engineer | Front-End React Developer</span>
                 <p className= "introPara">with a master's degree in development economics and a bachelor's degree
                     in engineering, with over 10 years of private practice
                     <br />in the field of fashion.</p>
