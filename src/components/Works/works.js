@@ -274,7 +274,7 @@ const Works = () => {
                     </div>
                 </div>
             </div>
-                    <div className= "newProjects">New projects coming soon...</div>
+                    <button className= "workBtn">New projects coming soon...</button>
 
         </section>
     )
