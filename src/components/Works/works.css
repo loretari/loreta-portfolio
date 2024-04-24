@@ -197,7 +197,7 @@
 
 @media screen and (max-width: 480px) {
     #works {
-        height: 590vh;
+        height: 680vh;
         max-width: 80rem;
     }
     .worksImg {

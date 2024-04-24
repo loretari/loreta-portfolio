@@ -36,7 +36,6 @@ const Works = () => {
                     </div>
                     <div className= "stack">
                         <p>React | Redux</p>
-                        <p>MongoDB</p>
                         <p>CSS</p>
                     </div>
                     <div className= "links">
