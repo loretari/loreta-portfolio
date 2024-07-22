@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# loreta-portfoliot
+
+loreta portfolio application about me and my projects.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4cdf138c-c4bb-4e33-acfd-7590da7738a1/deploy-status)](https://app.netlify.com/sites/lucent-rolypoly-34fde0/deploys)
+
 ## Available Scripts
 
 In the project directory, you can run:
