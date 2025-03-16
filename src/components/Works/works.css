@@ -1,6 +1,6 @@
 #works {
     margin: 0 auto;
-    height: 480vh;
+    height: 580vh;
     /*min-height: calc(100vh - 4rem);*/
     width: 100vw;
     max-width: 80rem;
@@ -155,7 +155,7 @@
     }
 
     #works {
-        height: 290vh;
+        height: 320vh;
     }
 }
 
@@ -197,7 +197,7 @@
 
 @media screen and (max-width: 480px) {
     #works {
-        height: 680vh;
+        height: 790vh;
         max-width: 80rem;
     }
     .worksImg {
